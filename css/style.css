@@ -1,0 +1,266 @@
+:root {
+    --color-gray: #F6F6F6;
+    --color-black: #070707;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--color-black);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar{
+    padding-top: 32px;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 576px) {
+    .nav-link  {
+        float: left;
+        margin-right: 0;
+        margin-left: 26px;
+    }
+    #navbarSupportedContent {
+        padding-bottom: 60px;
+    }
+}
+
+.line {
+    height: 1px;
+    background-color: #828282;
+    margin: 12px auto 0px;
+}
+
+/* Short */
+
+.row-short {
+    margin-top: 36px;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-weight: bold;
+    width: 124px;
+
+    color: #070707;
+}
+
+.year {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    align-self: end;
+}
+
+.language {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    float: right;
+}
+
+@media screen and (max-width: 576px) {
+    .line  {
+        display: none
+    }
+    .language {
+        writing-mode: horizontal-tb;
+        transform: none;
+        float: left;
+        margin-left: 26px;
+    }
+    .navbar {
+        margin-bottom: 0px;
+    }
+    .name {
+        margin-left: 26px;
+        margin-top: -90px;
+        margin-bottom: 24px;
+    }
+    .year {
+        text-align: left;
+        margin-left: 26px;
+    }
+  }
+
+/* Photo */
+.photo {
+    margin-bottom: 104px;
+}
+
+.photo-denis1 {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .photo-denis {
+        display: none;
+    }
+    .photo-denis1 {
+        display: inline;
+        padding: 0px 30px;
+    }
+}
+
+/* About */
+.about {
+    background-color: var(--color-gray);
+    padding-top: 120px;
+    padding-bottom: 108px;
+    color: var(--color-black);
+}
+
+.row-about {
+    max-width: 484px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: 500;
+}
+
+.about-me {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.about-me-text {
+    margin-bottom: 18px;
+    line-height: 22px;
+}
+
+/* Skills */
+.skills {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.skills-head {
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--color-black);
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.row-prog {
+    margin-top: 84px;
+}
+
+.skills-text {
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
+.stars-block {
+    margin-bottom: 80px;
+}
+
+/* Portfolio */
+.portfolio {
+    background-color: var(--color-gray);
+    padding-top: 110px;
+}
+
+.portfolio-head {
+    font-size: 34px;
+    line-height: 42px;
+    color: var(--color-black);
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.img-portfolio{
+    margin-bottom: 44px;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 100px;
+}
+
+.programm {
+    color: #828282;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+}
+
+/* Contacts */
+.contacts {
+    padding-top: 114px;
+}
+
+.contacts-head {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+.contacts-text {
+    text-align: center;
+    margin-bottom: 42px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts-btn {
+    background-color: var(--color-black);
+    width: 180px;
+    height: 42px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+.icons {
+    padding: 0px 30px;
+}
+
+.row-icons {
+    margin-bottom: 44px;
+}
+
+@media screen and (max-width: 576px) {
+    .icons {
+        padding: 0px 20px;
+    }
+    .contacts-btn {
+        margin-bottom: 48px;
+    }
+  }
+
+.contacts-like {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
